@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /***
- * pbc 8989898tert7878454
+ * pbc
  */
 public class BaseApiService {
   
