@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: nanpu-web
+  http:
+     encoding:
+       force: true
+       charset: UTF-8
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    suffix: .ftl
+    template-loader-path: classpath:/templates
+
+# 设置静态文件路径，js,css等
+  mvc:
+    static-path-pattern: /**
+
+#传对象参数，需要配置
+feign:
+  httpclient:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka/
+    registerWithEureka: false #是否将自己注册到Eureka服务中，默认为true
+

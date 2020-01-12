@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nanpu-common" />
+        <module name="nanpu-euraka" />
+        <module name="nanpu-service" />
+        <module name="nanpu-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nanpu-common" target="1.5" />
+      <module name="nanpu-euraka" target="1.8" />
+      <module name="nanpu-service" target="1.8" />
+      <module name="nanpu-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
