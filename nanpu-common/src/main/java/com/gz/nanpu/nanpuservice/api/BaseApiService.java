@@ -5,6 +5,10 @@ import com.gz.nanpu.nanpuservice.constants.BaseApiConstants;
 
 import java.util.HashMap;
 import java.util.Map;
+
+/***
+ * pbc
+ */
 public class BaseApiService {
   
 	/**
@@ -19,7 +23,7 @@ public class BaseApiService {
 	}
 
 	/**
-	 * 
+	 *
 	 * @methodDesc: 功能描述:(返回成功)
 	 * @param: @param
 	 *             msg
